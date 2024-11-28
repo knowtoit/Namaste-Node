@@ -1,9 +1,14 @@
 // require("./xyz")
 require("./difference")
-const {y, calculateDifference} = require("./difference");
+// const {y, calculateDifference} = require("./difference");
 // const {x, calculateSum} = require("./Calculate/sum")
 
 const {calculateSum, calculateMultiplication} = require("./Calculate")
+// const {x, calculateSum} = require("./Calculate/sum")
+
+const data = require("./data.json")
+
+console.log(data);
 
 var name = "Namaste NodeJS";
 
@@ -21,5 +26,7 @@ var b = 20;
 // obj.calculateSum(a,b);
 // console.log(obj.x);
 calculateSum(a,b);
-calculateDifference(a,b);
+console.log(x)
+// calculateDifference(a,b);
 calculateMultiplication(a,b);
+

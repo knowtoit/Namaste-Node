@@ -10,7 +10,7 @@ const data = require("./data.json")
 
 console.log(data);
 
-var name = "Namaste NodeJS";
+var name = "Namaste NodeJS"; 
 
 var a = 10;
 var b = 20;
